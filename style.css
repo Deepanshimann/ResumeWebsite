@@ -1,0 +1,419 @@
+@font-face {
+  font-family: domain;
+  src: url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: #1c1c19;
+  overflow: hidden;
+}
+/* page 1 */
+#page1 {
+  height: 130vh;
+  width: 100vw;
+  background-color: #c3bcb2;
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+#page1 h2 {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 2.5rem;
+  font-style: normal;
+}
+#page1 h3 {
+  font-weight: 100;
+}
+#elems {
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 60 px;
+  padding: 1rem;
+}
+#elem1 {
+  width: 30%;
+  height: 100%;
+}
+#elem1 h4 {
+  font-size: 1.5rem;
+  font-family: canopee;
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+#elem1 h4 span {
+  background-color: #b73b12;
+  color: white;
+  margin-left: 5px;
+  padding: 2px 3px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+#elem1 p {
+  font-size: 1.4rem;
+  font-family: Editorial New Light;
+  font-weight: 100;
+  color: rgb(61, 61, 61);
+}
+#elem2 h2 {
+  font-size: 4rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: canopee;
+}
+
+#elem2 h3 {
+  font-size: 2.2rem;
+  margin-top: 7px;
+  font-weight: 100;
+  font-family: Editorial New Light;
+}
+#elem2 h6 {
+  margin-top: 7px;
+  font-weight: 200;
+  font-size: 0.8rem;
+  font-family: Editorial New Light;
+}
+#elem2 {
+  width: 30%;
+  height: 100%;
+  border-right: 2px solid rgb(82, 81, 81);
+  padding: 10px 10px;
+  text-align: center;
+  border-left: 2px solid rgb(82, 81, 81);
+}
+#elem3 {
+  width: 30%;
+  height: 100%;
+}
+
+#elem3 h4 {
+  font-size: 1.5rem;
+  font-family: canopee;
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+#elem3 p {
+  font-size: 1.4rem;
+  font-family: Editorial New Light;
+  font-weight: lighter;
+  color: rgb(61, 61, 61);
+}
+
+#image-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.4s;
+}
+#image-div:hover img {
+  scale: 1.1;
+}
+/* Page 1 */
+#page1 h1 {
+  background-color: #1c1c19;
+  color: #c3bcb2;
+  font-size: 31.2rem;
+  font-weight: 100;
+  width: 99.5%;
+  font-family: canopee;
+  line-height: 28rem;
+  letter-spacing: -25px;
+}
+/* Page 2 */
+#page2 {
+  height: 150vh;
+  width: 100vw;
+  padding: 40px 40px;
+  background-color: #c3bcb2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Page 2 Left Part */
+#page2-left {
+  height: 100%;
+  width: 32%;
+  padding-right: 40px;
+  border-right: 1px solid black;
+}
+#page2-left h2 {
+  font-size: 7rem;
+  font-family: domain;
+  letter-spacing: -6px;
+  font-weight: 100;
+  line-height: 130px;
+}
+#page2-left h2 span {
+  font-size: 13rem;
+  padding: 0.8rem;
+  font-weight: 500;
+  letter-spacing: -12px;
+}
+#page2-left img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+#page2-left p {
+  font-size: 1.6rem;
+  font-family: Editorial New Light;
+  margin-top: 2.5rem;
+}
+
+/* Page 2 Right Part */
+#page2-right {
+  height: 100%;
+  width: 65%;
+  padding: 0 5px;
+}
+#page2-right img {
+  height: 55%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2.5rem;
+}
+#page2-right h1 {
+  font-family: domain;
+  font-size: 6.7rem;
+  letter-spacing: -8px;
+  font-weight: 500;
+  line-height: 6.4rem;
+}
+/* Page 3 */
+#page3 {
+  background-color: #1c1c19;
+  position: relative;
+}
+#page3 h1 {
+  font-size: 30rem;
+  font-family: canopee;
+  color: #c3bcb2;
+  font-weight: 500;
+  letter-spacing: -25px;
+  line-height: 26rem;
+  width: 70%;
+}
+#page3 img {
+  width: 20rem;
+  height: 26rem;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Page 4 */
+#page4 {
+  padding: 4rem 2rem 4rem 2rem;
+  background-color: #c3bcb2;
+  height: 150vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 35% 38%;
+  grid-template-rows: 30% 65% ;
+}
+/* Page 4 Item 1 */
+#page4-item1 {
+  border-right: 1px solid black;
+}
+#page4-item1 h1 {
+  font-family: canopee;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+#page4-item1 h2 {
+  font-family: Editorial New Light;
+  font-weight: 300;
+  font-size: 1.6rem;
+  width: 80%;
+  margin-bottom: 4rem;
+}
+#page4-item1 p {
+  font-family: Editorial New Light;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+/* Page 4 Item 2 */
+#page4-item2 {
+  padding: 0 4rem;
+}
+#page4-item2 h2 {
+  font-family: canopee;
+  font-size: 1.8rem;
+  margin-bottom: 0.7rem;
+  font-weight: 200;
+}
+#page4-item2 img {
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.4s;
+}
+#page4-item2 p {
+  font-family: Editorial New Light;
+  font-size: larger;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+/* Page 4 Item 3 */
+#page4-item3 {
+  border-left: 1px solid black;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 2;
+  padding-left: 4.4rem;
+}
+
+#page4-item3 h1 {
+  font-size: 6rem;
+  font-family: canopee;
+  letter-spacing: -3px;
+  font-weight: 100;
+  line-height: 120px;
+  margin-bottom: 1rem;
+}
+#page4-item3 h1 span {
+  font-size: 13rem;
+  padding: 0.8rem;
+  font-weight: 500;
+  letter-spacing: -12px;
+}
+#page4-item3 p {
+  text-align: left;
+  font-family: Editorial New Light;
+  font-size: larger;
+  font-weight: 300;
+  font-size: 1.8rem;
+  padding-left: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+/* Page 4 => Item-3 All Work Circle */
+#page4-item3 #circle {
+  height: 12rem;
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 4rem;
+  border: 2px solid #1c1c19;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+flex-wrap: nowrap;
+overflow: hidden;
+}
+
+#circle h1{
+    font-family: canopee;
+    font-size: 5.4rem;
+    transform: translateX(-40%);
+    transition: all ease 0.6s;
+}
+#circle img{
+    height: 60px;
+   transform: translateX(-120%);
+   transition: all ease 0.6s;
+}
+#circle:hover img{
+    transform: translateX(60%);
+}
+#circle:hover h1{
+    transform: translateX(152%);
+}
+/* Page 4 Item 4 */
+#page4-item4 {
+  grid-column: 1 / span 2;
+  padding-right: 4rem;
+  padding-top: 1rem;
+}
+#page4-item4 img {
+  width: 100%;
+  height: 90%;
+}
+
+/* Page 5 */
+#page5{
+    height: 30vh;
+    background-color: #c3bcb2;
+    white-space: nowrap;
+    overflow-x:auto ;
+    overflow-y: hidden;
+}
+#page5::-webkit-scrollbar{
+    display: none;
+}
+
+#page5 h1{
+    font-size: 5.2rem;
+    font-family: Editorial New Light;
+    font-weight: 100;
+    display: inline-block;
+    animation-timing-function: linear;
+    animation-name: scroll;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+#page5 span{
+    color: #c3bcb2;
+    background-color: black;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100%));
+    }
+}
+
+@media screen and (max-width: 1044px) {
+  #elems {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #page1 {
+    height: auto;
+  }
+  #elems {
+    flex-direction: column;
+    height: auto;
+    gap: 3rem;
+  }
+  #elem1 {
+    width: 100%;
+  }
+  #elem2 {
+    width: 100%;
+  }
+  #elem3 {
+    width: 100%;
+  }
+}
